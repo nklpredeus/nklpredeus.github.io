@@ -67,7 +67,7 @@
 
 @media (max-width: 575px){
 	.main-header {
-		min-height: 370px;
+		min-height: 587px;
 	}
 
 	.main-menu {
@@ -79,15 +79,16 @@
 	}
 
 	.header-content {
-		margin-top: 50px;
+		margin-top: 170px;
 	}
 
 	.header-content h1 {
-		font-size: 30px;
+		font-size: 27px;
 	}
 
 	.header-content p {
-		font-size: 12px;
+		font-size: 16px;
+		margin-bottom: 80px;
 	}
 
 	.header-content a {
@@ -105,7 +106,7 @@
 
 @media (max-width: 415px){
 	.main-header {
-		min-height: 350px;
+		min-height: 587px;
 	}
 
 	.main-menu {
@@ -117,15 +118,16 @@
 	}
 
 	.header-content {
-		margin-top: 50px;
+		margin-top: 170px;
 	}
 
 	.header-content h1 {
-		font-size: 20px;
+		font-size: 27px;
 	}
 
 	.header-content p {
-		font-size: 15px;
+		font-size: 16px;
+		margin-bottom: 80px;
 	}
 
 	.header-content a {
