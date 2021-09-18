@@ -16,7 +16,7 @@
 	}
 
 	.header-content h1 {
-		font-size: 40px;
+		font-size: 45px;
 	}
 
 	.header-content p {
@@ -50,7 +50,7 @@
 	}
 
 	.header-content h1 {
-		font-size: 35px;
+		font-size: 40px;
 	}
 
 	.header-content p {
@@ -83,7 +83,7 @@
 	}
 
 	.header-content h1 {
-		font-size: 27px;
+		font-size: 31px;
 	}
 
 	.header-content p {
@@ -101,6 +101,12 @@
 	.hamburger {
     margin-top: -35px;
     float: right;
+	}
+
+	.services {
+		display: flex;
+		flex-direction: column;
+		
 	}
 }
 
