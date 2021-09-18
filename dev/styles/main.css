@@ -345,6 +345,10 @@ h2.line-after:after {
 	padding-bottom: 30px;
 }
 
+.post-item img {
+	width: 100%;
+}
+
 .post-item:last-of-type {
 	border-bottom: none;
 }
