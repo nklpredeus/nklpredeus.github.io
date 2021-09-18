@@ -123,6 +123,9 @@
 	.latest-works h2 {
 		margin-top: 20px;
 	}
+	.recent {
+		margin-top: 50px;
+	}
 }
 
 /*--------------------------------------------*/
@@ -184,6 +187,12 @@
 	.work-item-content {
 		margin-top: 70px;
 	}
+	.project-content {
+		font-size: 18px;
+	}
+	.recent {
+		margin-top: 50px;
+	}
 }
 
 /*--------------------------------------------*/
@@ -242,5 +251,11 @@
 	}
 	.work-item-content {
 		margin-top: 70px;
+	}
+	.project-content {
+		font-size: 18px;
+	}
+	.recent {
+		margin-top: 50px;
 	}
 }
