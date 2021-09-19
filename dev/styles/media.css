@@ -77,7 +77,7 @@
 
 @media (max-width: 575px){
 	.main-header {
-		min-height: 587px;
+		min-height: 100vh;
 	}
 
 	.main-menu {
