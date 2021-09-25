@@ -7,11 +7,6 @@
 
  /*-------------------------------------------------- Стили хедер ------------------------------------------------*/
 
-html, body {
-    /* Убирает прокрутку по горизонтале, для мобильной версии */
-    overflow-x: hidden;
-}
-
 .test-img {
 	width: 500px;
 	height: 250px;
@@ -361,6 +356,7 @@ h2.line-after:after {
 .published {
 	display: flex;
 	justify-content: space-around;
+	margin-left: 25px;
 }
 .date {
 	font-size: 24px;
@@ -405,10 +401,12 @@ h2.line-after:after {
 	display: flex;
 	justify-content: center;
 	margin-top: 100px;
+	padding: 0;
 }
 .brand-list-item li {
 	display: inline-block;
-	margin-left: 60px;
+	margin-left: 25px;
+	margin-right: 25px;
 }
 .brand-content {
   font-size: 18px;
@@ -540,13 +538,14 @@ input:focus, textarea:focus {
 .main-footer {
 	background-color: #c0301c;
 	min-height: 300px;
-	margin-top: 70px;
+	margin-top: 50px;
 }
 
 .footer-list {
 	list-style: none;
 	text-align: center;
 	margin-top: 100px;
+	padding: 0;
 
 }
 .footer-list li {
