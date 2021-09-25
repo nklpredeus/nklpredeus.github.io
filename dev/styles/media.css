@@ -182,6 +182,9 @@
 	    object-fit: cover;
 	    object-position: 0px 0px;
 	}
+	.blog-text {
+    	padding-left: 0px;
+	}
 }
 
 /*--------------------------------------------*/
