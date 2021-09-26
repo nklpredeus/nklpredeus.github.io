@@ -23,6 +23,37 @@
 	list-style: none;
 	margin-top: 40px;
 }
+.mobile-menu {
+	position: fixed;
+	display: flex;
+	align-items: center;
+	z-index: 997;
+	height: 100%;
+	width: 100%;
+	max-width: 250px;
+	top: 0;
+	right: -200%;
+	background-color: #fff;
+	transition: 0.3s;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+.mobile-menu.active {
+	right: 0;
+}
+.mobile-menu ul {
+	width: 100%;
+	padding: 0;
+}
+.mobile-menu li {
+	font-size: 18px;
+	text-transform: uppercase;
+	list-style: none;
+}
+.mobile-menu li a {
+	display: block;
+	padding: 10px 0;
+	text-align: center;
+}
 .main-menu li {
 	display: inline-block;
 	margin-left: 45px;
@@ -71,11 +102,11 @@
 	border: 2px solid #fff;
 	padding: 15px 25px;
 }
+
 .header-content a:hover {
 	background-color: #fff;
 	color: #c0301c;
 	text-decoration: none;
-
 }
 .header-content p {
 	color: #fff;
@@ -140,6 +171,9 @@ h2.line-after:after {
 	margin-top: 50px;
 	margin-bottom: 50px;
 }
+.team-item {
+	cursor: pointer;
+}
 .team-item h4 {
 	text-transform: uppercase;
 	margin-top: 25px;
@@ -161,10 +195,10 @@ h2.line-after:after {
 	height: 100%;
 	transition: 0.2s;
 }
-.team-item-wrapper:hover:after {
+.team-item:hover .team-item-wrapper:after {
 	background-color: rgba(0, 0, 0, 0.5);
 }
-.team-item-wrapper:hover .team-social {
+.team-item:hover .team-item-wrapper .team-social {
 	opacity: 1;
 	z-index: 2;
 }
@@ -468,7 +502,7 @@ text-transform: uppercase;
   color: rgb(85, 85, 85);
   line-height: 1.667;
   margin-left: 40px;
-  float: left;
+  display: block;
 }
 .four-form {
 	height: 45px;
@@ -546,12 +580,14 @@ input:focus, textarea:focus {
 	text-align: center;
 	margin-top: 100px;
 	padding: 0;
-
 }
 .footer-list li {
 	display: inline-block;
-	margin-left: 12px;
+}
 
+.footer-list li a {
+	display: block;
+	padding: 10px 6px;
 }
 
 .footer-list:after {
