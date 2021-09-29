@@ -505,6 +505,14 @@ text-transform: uppercase;
   margin-left: 40px;
   display: block;
 }
+.address-item a {
+	color: rgb(85, 85, 85);
+	text-decoration: none;
+}
+.address-item a:hover {
+	color: rgb(85, 85, 85);
+	text-decoration: none;
+}
 .four-form {
 	height: 45px;
 	width: 350px;
