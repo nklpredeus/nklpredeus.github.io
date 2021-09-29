@@ -7,13 +7,6 @@
 
  /*-------------------------------------------------- Стили хедер ------------------------------------------------*/
 
-.test-img {
-	width: 500px;
-	height: 250px;
-	margin: 20px;
-	object-fit: cover;
-	object-position: center center;
-}
 
 .main-header {
 	background: url(../images/top-bg.jpg);
@@ -33,14 +26,15 @@
 	max-width: 250px;
 	top: 0;
 	right: -200%;
-	background-color: #fff;
+	background-color: rgba(0, 0, 0, 0.85);
 	transition: 0.3s;
-	box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
 }
 .mobile-menu.active {
 	right: 0;
 }
 .mobile-menu ul {
+	margin-top: -60px;
 	width: 100%;
 	padding: 0;
 }
@@ -53,6 +47,13 @@
 	display: block;
 	padding: 10px 0;
 	text-align: center;
+	text-decoration: none;
+	color: #fff;
+}
+
+.mobile-menu li a:hover {
+	color: #c0301c;
+	font-weight: 650;
 }
 .main-menu li {
 	display: inline-block;
