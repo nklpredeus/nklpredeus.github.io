@@ -1,6 +1,6 @@
 $('.hamburger').click(function(){
-	$('.hamburger').addClass('is-active');
-	$('.mobile-menu').addClass('active');
+	$('.hamburger').toggleClass('is-active');
+	$('.mobile-menu').toggleClass('active');
 });
 
 $('.close').click(function(){
@@ -8,10 +8,11 @@ $('.close').click(function(){
 	$('.hamburger').removeClass('is-active');
 })
 
+
 $(document).mouseup(function (e) {
-    var container = $(".mobile-menu");
-    if (container.has(e.target).length === 0){
-        container.removeClass('active');
+    var menu = $('.mobile-menu')
+    if (!menu.is(e.target)){
+        menu.removeClass('active');
         $('.hamburger').removeClass('is-active');
     }
 });
