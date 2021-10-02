@@ -15,7 +15,7 @@
 
 @media (max-width: 992px){
 	.main-header {
-		min-height: 100vh;
+		min-height: 90vh;
 		background-repeat: no-repeat;
 	}
 
@@ -47,6 +47,7 @@
 		text-decoration: none;
 		font-weight: bolder;
 		border-radius: 5px;
+		margin-top: 70px;
 	}
 	.post-item img {
 	    width: 100%;
@@ -90,7 +91,7 @@
 
 @media (max-width: 767px){
 	.main-header {
-		min-height: 100vh;
+		min-height: 90vh;
 		background-repeat: no-repeat;
 	}
 
@@ -104,7 +105,7 @@
 	}
 
 	.header-content {
-		margin-top: 85px;
+		margin-top: 110px;
 	}
 
 	.header-content h1 {
@@ -123,6 +124,7 @@
 		text-decoration: none;
 		font-weight: bolder;
 		border-radius: 5px;
+		margin-top: 90px;
 	}	
 	.brand-list-item {
 		margin-top: 50px;
@@ -155,6 +157,12 @@
 	}
 	.latest-works-items {
     	margin-bottom: 10px;
+	}
+	.work-item-content {
+		margin-top: 50px;
+	}
+	.wokr-item-button {
+		padding: 10px 20px;
 	}
 	.our-team {
 	    margin-bottom: 25px;
