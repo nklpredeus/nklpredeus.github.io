@@ -174,15 +174,18 @@
 	    margin-bottom: 25px;
 	    padding-bottom: 25px;
 	}
+	.getCall {
+		padding-left: 0px;
+	}
 	.getCall input {
     	width: 100%;
 	}
 	.address {
-    	font-size: 11px;
+    	font-size: 16px;
     	margin-left: 3px; 
 	}
 	.address-item {
-    	font-size: 12px;
+    	font-size: 15px;
     	margin-left: 20px;
 	}
 	.about-reply {
@@ -325,11 +328,11 @@
     	width: 100%;
 	}
 	.address {
-    	font-size: 11px;
+    	font-size: 15px;
     	margin-left: 3px; 
 	}
 	.address-item {
-    	font-size: 12px;
+    	font-size: 14px;
     	margin-left: 20px;
 	}
 	.about-reply {
@@ -486,8 +489,11 @@
 		padding-left: 15px;
 		padding-top: 3px;
 	}
+	.address {
+		font-size: 15px;
+	}
 	.address-item {
-    	font-size: 10px;
+    	font-size: 14px;
     	margin-left: 0px;
 	}
 	.getCall {
@@ -495,6 +501,9 @@
 	}
 	#toTop {
 		right: 70%;
+	}
+	.footer-list {
+		margin-top: 50px;
 	}
 }
 
@@ -616,8 +625,11 @@
 		padding-left: 15px;
 		padding-top: 3px;
 	}
+	.address {
+		font-size: 15px;
+	}
 	.address-item {
-    	font-size: 10px;
+    	font-size: 14px;
     	margin-left: 0px;
 	}
 	.form-button {
@@ -630,5 +642,10 @@
 	}
 	#toTop {
 		right: 70%;
+	}
+	.footer-list {
+		margin-top: 50px;
+		display: flex;
+		flex-wrap: wrap;
 	}
 }
