@@ -61,6 +61,9 @@
 	.brand-list-item {
     	margin-top: 50px;
     	padding: 0;
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
 	}
 	.brand-list-item li {
     	margin-left: 15px;
@@ -84,6 +87,9 @@
 	.published {
     	margin-left: 30px;
     	margin-top: 0px;
+	}
+	#toTop {
+		right:88%;
 	}
 }
 
@@ -198,6 +204,9 @@
 	}
 	.blog-text {
     	padding-left: 0px;
+	}
+	#toTop {
+		right: 85%;
 	}
 }
 
@@ -339,7 +348,9 @@
 	    background-size: none;
 	    object-fit: none;
 	    object-position: none;
-
+	}
+	#toTop {
+		right: 70%;
 	}
 }
 
@@ -482,6 +493,9 @@
 	.getCall {
     	padding-left: 0px;
 	}
+	#toTop {
+		right: 70%;
+	}
 }
 
 /*--------------------------------------------*/
@@ -613,5 +627,8 @@
 	}
 	.getCall {
     	padding-left: 0px;
+	}
+	#toTop {
+		right: 70%;
 	}
 }

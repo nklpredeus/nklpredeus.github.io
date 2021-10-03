@@ -655,7 +655,30 @@ input:focus, textarea:focus {
 	width: 27px;
 }
 
-.topbutton {
+#toTop {
+	width:100px;
+	border:1px solid #ccc;
+	background:#f7f7f7;
+	text-align:center;
+	padding:5px;
+	position:fixed;
+	bottom:10px; /* отступ кнопки от нижнего края страницы*/
+	right:10px;
+	cursor:pointer;
+	display:none;
+	color:#333;
+	font-family:verdana;
+	font-size:11px;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	color: #c0301c;
+	font-weight: 600;
+	font-size: 13px;
+	border-radius: 4px;
+	border: 2px solid #ccc;
+	}
+
+/* .topbutton {
 	width:100px;
 	border:2px solid #ccc;
 	background:#f7f7f7;
@@ -672,4 +695,11 @@ input:focus, textarea:focus {
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	-khtml-border-radius: 5px;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-weight: 600;
 	}
+	.topbutton:hover {
+		text-decoration: none;
+		color:#333;
+	} */
