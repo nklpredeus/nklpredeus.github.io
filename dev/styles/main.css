@@ -608,23 +608,25 @@ input:focus, textarea:focus {
 	align-items: center;
 	width: 50px;
 	height: 50px;
-	border: 2px solid #fff;
+	border: 2px solid #030303;
 	border-radius: 50%;
 	margin: 0 10px;
+	background-color: #fff;
+	transition: 0.3s;
 }
 .footer-list .facebook:hover {
-	border-color: rgb(56, 75, 184);
+	border-color: #0746d8;
 }
 .footer-list .twitter:hover {
-	border-color: rgb(42, 212, 224);
+	border-color: #20cbda;
 }
 
 .footer-list .whatsapp:hover {
-	border-color: rgb(42, 224, 52);
+	border-color: #00af08;
 }
 
 .footer-list .telegram:hover {
-	border-color: rgb(91, 115, 252);
+	border-color: #1995ff;
 }
 
 .footer-list li .facebook img, .footer-list li .facebook svg {
@@ -632,27 +634,28 @@ input:focus, textarea:focus {
 }
 
 .footer-list li .facebook:hover svg path {
-	fill: rgb(56, 75, 184);
-	background-color: #fff;
+	fill: #0746d8;
+	transition: 0.3s;
 }
 
 .footer-list li .telegram:hover svg path {
-	fill: rgb(91, 115, 252);
-	background-color: #fff;
+	fill: #1995ff;
+	transition: 0.3s;
 }
 
 .footer-list li .whatsapp:hover svg path {
-	fill: rgb(42, 224, 52);
-	background-color: #fff;
+	fill: #00af08;
+	transition: 0.3s;
 }
 
 .footer-list li .twitter:hover svg path {
-	fill: rgb(42, 212, 224);
-	background-color: #fff;
+	fill: #20cbda;
+	transition: 0.3s;
 }
 
 .footer-list li a img, .footer-list li a svg {
 	width: 27px;
+	transition: 0.3s;
 }
 
 #toTop {
