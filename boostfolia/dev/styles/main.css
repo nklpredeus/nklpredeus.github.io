@@ -181,7 +181,6 @@
 	background: url(../images/video.jpg);
 }
 
-
 .latest-works-items {
 	list-style: none;
 	text-align: center;
@@ -221,7 +220,26 @@
 .black-carousel {
 	min-height: 240px;
 	width: 100%;
+	float: left;
+	background-color: #1c1c1c;
 }
-.black-carousel-list ul {
+.black-carousel-list {
 	padding: 0;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 100px;
+}
+
+.black-carousel-item {
+	display: inline-block;
+}
+
+.black-carousel-item span {
+	font-family: 'MgOpen Modata';
+	color: #fff;
+	font-size: 30px;
+}
+
+.carousel-item-2 {
+	margin-top: 7px;
 }
