@@ -209,9 +209,12 @@
 	font-weight: bold;
 	border-bottom: 2px solid #e84c3d;
 }
-
+.work-items {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
 .item {
-	float: left;
 	width: 25%;
 	height: 175px;
 	background-color: #e84c3d;
@@ -220,7 +223,6 @@
 .black-carousel {
 	min-height: 240px;
 	width: 100%;
-	float: left;
 	background-color: #1c1c1c;
 }
 .black-carousel-list {
@@ -243,3 +245,128 @@
 .carousel-item-2 {
 	margin-top: 7px;
 }
+
+.team {
+	margin-top: 85px;
+}
+
+.team-worker {
+	background-color: #ebebeb;
+	min-height: 435px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.skills {
+	background-color: #ebebeb;
+	min-height: 435px;
+}
+.team-worker-foto {
+	height: 135px;
+	width: 135px;
+	background-color: #f26c4f;
+	border-radius: 50%;
+	margin-top: 75px;
+}
+
+.team-worker-social {
+	margin-top: 20px;
+	padding: 0;
+}
+
+.team-worker-social-item {
+	display: inline;
+	list-style: none;
+	margin: 0 5px 0 5px;
+}
+
+.team-worker-name {
+	font-size: 20px;
+	font-family: "Roboto";
+	color: rgb(61, 61, 61);
+	font-weight: bold;
+	line-height: 1.2;
+	text-align: center;
+	margin-top: 20px;
+ }
+
+ .team-worker-position {
+		font-size: 14px;
+		font-family: "Roboto";
+		color: rgb(61, 61, 61);
+		line-height: 1.2;
+		text-align: center;
+ }
+
+ .team-worker-social-item a {
+	padding: 5px;
+ }
+
+ .skills {
+	display: flex;
+	flex-direction: column;
+ }
+ .skills h2 {
+	font-size: 24px;
+	font-family: "Roboto";
+	color: rgb(61, 61, 61);
+	font-weight: bold;
+	line-height: 1.2;
+	text-transform: uppercase;
+	margin-left: 68px;
+	margin-top: 120px;
+}
+
+.skill-content {
+		font-size: 14px;
+		font-family: "Roboto";
+		color: rgb(133, 131, 131);
+		line-height: 1.2;
+		margin-left: 68px;
+}
+ 
+.skills-items {
+	margin-top: 50px;
+	margin-left: 68px;
+}
+
+.skills-items ul {
+	list-style: none;
+	padding: 0;
+}
+
+.skills-items-name {
+	text-transform: uppercase;
+	font-size: 16px;
+	font-family: "Roboto";
+	color: rgb(61, 61, 61);
+	font-weight: bold;
+	line-height: 1.2;
+	text-align: right;	 
+}
+
+.skills-items li {
+	margin-bottom: 10px;
+}
+
+.skills-items progress {
+	width: 370px;
+	height: 2px;
+}
+progress::-webkit-progress-bar {
+	/* стилевые правила */
+	background: #e84c3d;
+ }
+ progress::-webkit-progress-value {
+	/* стилевые правила */
+	background: #e84c3d;
+ }
+ progress::-moz-progress-bar {
+	/* стилевые правила */
+	background: #e84c3d;
+ }
+ .skill-percent {
+
+ }
