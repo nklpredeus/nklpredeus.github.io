@@ -176,8 +176,28 @@ h2.line-after:after {
 	margin-top: 50px;
 	margin-bottom: 50px;
 }
+
+.team-slider {
+	position: relative;
+}
+
+.team-arrow-left {
+	 position: absolute;
+    top: 125px;
+    left: -30px;
+    cursor: pointer;
+}
+
+.team-arrow-right {
+	 position: absolute;
+    top: 125px;
+    right: -30px;
+    cursor: pointer;
+}
+
 .team-item {
 	cursor: pointer;
+	padding: 15px;
 }
 .team-item h4 {
 	text-transform: uppercase;
@@ -431,6 +451,37 @@ h2.line-after:after {
 	color: #c0301c;
 	text-decoration: none;
 }
+
+.brand-slider {
+	margin-top: 70px;
+}
+
+.brand-item {
+	
+}
+
+.brand-item img {
+}
+
+.slick-slide img {
+	margin: 0 auto;
+	cursor: pointer;
+}
+
+.brand-arrow-left {
+	position: absolute;
+	top: 18px;
+	left: -30px;
+	cursor: pointer;
+}
+
+.brand-arrow-right {
+	position: absolute;
+	top: 18px;
+	right: -30px;
+	cursor: pointer;
+}
+
 .brand-list {
 	margin-top: 100px;
 	background-color: #f8f8f8;
@@ -443,7 +494,6 @@ h2.line-after:after {
 	padding: 0;
 }
 .brand-list-item li {
-	display: inline-block;
 	margin-left: 25px;
 	margin-right: 25px;
 }
@@ -541,6 +591,8 @@ text-transform: uppercase;
 	border: 1px solid rgba(8, 0, 0, 0.2);
 	padding: 15px 42px;
 	box-shadow: inset 0px 0px 20px rgb(8, 0, 0, 0.4);
+	transition: 0.5s;
+	border-radius: 10px;
 }
 .form-button:hover {
 	color: rgb(85, 85, 85);
@@ -562,6 +614,7 @@ text-transform: uppercase;
 	width: 48%;
 	margin-bottom: 15px;
 	padding: 10px 15px;
+	border-radius: 10px;
 }
 
 ::selection {
@@ -577,6 +630,7 @@ input:focus, textarea:focus {
 .getCall textarea {
 	width: 100%;
 	padding: 10px 15px;
+	border-radius: 10px;
 }
 
 .about-reply {
@@ -615,18 +669,18 @@ input:focus, textarea:focus {
 	transition: 0.3s;
 }
 .footer-list .facebook:hover {
-	border-color: #0746d8;
+	border-color: #4267b2;
 }
 .footer-list .twitter:hover {
-	border-color: #20cbda;
+	border-color: #1da1f2;
 }
 
 .footer-list .whatsapp:hover {
-	border-color: #00af08;
+	border-color: #25d366;
 }
 
 .footer-list .telegram:hover {
-	border-color: #1995ff;
+	border-color: #0088cc;
 }
 
 .footer-list li .facebook img, .footer-list li .facebook svg {
@@ -634,22 +688,22 @@ input:focus, textarea:focus {
 }
 
 .footer-list li .facebook:hover svg path {
-	fill: #0746d8;
+	fill: #4267b2;
 	transition: 0.3s;
 }
 
 .footer-list li .telegram:hover svg path {
-	fill: #1995ff;
+	fill: #0088cc;
 	transition: 0.3s;
 }
 
 .footer-list li .whatsapp:hover svg path {
-	fill: #00af08;
+	fill: #25d366;
 	transition: 0.3s;
 }
 
 .footer-list li .twitter:hover svg path {
-	fill: #20cbda;
+	fill: #1da1f2;
 	transition: 0.3s;
 }
 
