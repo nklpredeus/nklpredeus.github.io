@@ -47,8 +47,8 @@ $(document).ready(function () {
 		infinite: true,
 		arrows: true,
 		dots: false,
-		prevArrow: '<img class="brand-arrow-left" src="../images/fa-angle-left.png" alt="left"> ',
-		nextArrow: '<img class="brand-arrow-right" src="../images/fa-angle-right.png" alt="right">',
+		prevArrow: '<img class="brand-arrow-left" src="images/fa-angle-left.png" alt="left"> ',
+		nextArrow: '<img class="brand-arrow-right" src="images/fa-angle-right.png" alt="right">',
 
 	});
 
