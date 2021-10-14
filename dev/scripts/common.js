@@ -51,7 +51,6 @@ $(document).ready(function () {
 		nextArrow: '<img class="brand-arrow-right" src="/images/fa-angle-right.png" alt="right">',
 		autoplay: true,
 		autoSpeedplay: 30,
-
 	});
 
 });
