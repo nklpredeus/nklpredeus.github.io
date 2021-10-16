@@ -40,6 +40,23 @@ $(document).ready(function () {
 		nextArrow: '<img class="team-arrow-right" src="images/fa-angle-right.png" alt="right">',
 		autoplay: true,
 		autoSpeedplay: 30,
+		responsive: [
+			{
+				breakpoint: 992,
+				settings: {
+					slidesToShow: 3,
+					autoplay: false
+				}
+			},
+			{
+				breakpoint: 768,
+				settings: {
+					slidesToShow: 2,
+					autoplay: false,
+					arrows: false
+				}
+			}
+		]
 	});
 
 	$('.brand-slider').slick({
@@ -52,6 +69,9 @@ $(document).ready(function () {
 		autoplay: true,
 		autoSpeedplay: 30,
 	});
+
+	var mixer = mixitup('.latest-works-mixer');
+
 });
 
 

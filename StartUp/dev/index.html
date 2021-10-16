@@ -317,16 +317,16 @@
 					<div class="col-12">
 						<h2 class="line-after">Latest Works</h2>
 						<ul class="latest-works-items">
-							<li><a href="#">All</a></li>
-							<li><a href="#">Branding</a></li>
-							<li><a href="#">Design</a></li>
+							<li><span data-filter="all">All</span></li>
+							<li><span data-filter=".branding-mix">Branding</span></li>
+							<li><span data-filter=".design-mix">Design</span></li>
 							<li><a href="#">Development</a></li>
 							<li><a href="#">Strategy</a></li>
 						</ul>
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-md-6 col-sm-6 col-lg-4">
+				<div class="row latest-works-mixer">
+					<div class="col-md-6 col-sm-6 col-lg-4 mix branding-mix">
 						<div class="work-item">
 							<div class="work-item-wrapper">
 								<img src="images/1-girl.png" alt="girl">
@@ -338,7 +338,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-6 col-sm-6 col-lg-4">
+					<div class="col-md-6 col-sm-6 col-lg-4 mix branding-mix">
 						<div class="work-item">
 							<div class="work-item-wrapper">
 								<img src="images/2-bird.png" alt="bird">
@@ -351,7 +351,7 @@
 
 						</div>
 					</div>
-					<div class="col-md-6 col-sm-6 col-lg-4">
+					<div class="col-md-6 col-sm-6 col-lg-4 mix design-mix">
 						<div class="work-item">
 							<div class="work-item-wrapper">
 								<img src="images/3-device.png" alt="device">
@@ -363,7 +363,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-6 col-sm-6 col-lg-4">
+					<div class="col-md-6 col-sm-6 col-lg-4 mix design-mix">
 						<div class="work-item">
 							<div class="work-item-wrapper">
 								<img src="images/4-foto.png" alt="foto">
@@ -375,7 +375,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-6 col-sm-6 col-lg-4">
+					<div class="col-md-6 col-sm-6 col-lg-4 mix branding-mix">
 						<div class="work-item">
 							<div class="work-item-wrapper">
 								<img src="images/5-bike.png" alt="bike">
@@ -387,7 +387,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-6 col-sm-6 col-lg-4">
+					<div class="col-md-6 col-sm-6 col-lg-4 mix branding-mix">
 						<div class="work-item">
 							<div class="work-item-wrapper">
 								<img src="images/6-note.png" alt="note">
@@ -399,7 +399,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-6 col-sm-6 col-lg-4">
+					<div class="col-md-6 col-sm-6 col-lg-4 mix branding-mix">
 						<div class="work-item">
 							<div class="work-item-wrapper">
 								<img src="images/7-laptop.png" alt="laptop">
@@ -411,7 +411,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-6 col-sm-6 col-lg-4 col-xl-4">
+					<div class="col-md-6 col-sm-6 col-lg-4 col-xl-4 mix branding-mix">
 						<div class="work-item">
 							<div class="work-item-wrapper">
 								<img src="images/8-paper.png" alt="paper">
@@ -423,7 +423,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-6 col-sm-6 col-lg-4 col-xl-4">
+					<div class="col-md-6 col-sm-6 col-lg-4 col-xl-4 mix branding-mix">
 						<div class="work-item">
 							<div class="work-item-wrapper">
 								<img src="images/9-events.png" alt="events">
@@ -674,6 +674,7 @@
 	<!-- <a href="#" title="Вернуться к началу" class="topbutton">Наверх</a> -->
 	<script src="scripts/jquery.min.js"></script>
 	<script src="libs/slick/slick.js"></script>
+	<script src="libs/mixer/mixitup.min.js"></script>
 	<script src="scripts/common.js"></script>
 	<div id="toTop">Наверх</div>
 </body>
