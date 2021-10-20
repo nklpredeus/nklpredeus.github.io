@@ -217,8 +217,11 @@
 .item {
 	width: 25%;
 	height: 175px;
-	background-color: #e84c3d;
-	border: 1px solid #eb6659;
+}
+
+.item img {
+	width: 100%;
+	height: 100%;
 }
 .black-carousel {
 	min-height: 240px;
@@ -456,7 +459,7 @@
 }
 
 .img-blog-wrapper:after {
-	content: '';
+	/* content: ''; */
 	display: block;
 	background-color: rgba(0, 0, 0, 0);
 	position: absolute;
@@ -561,9 +564,6 @@
 	background-color: #171f23;
 }
 
- .choose-plan-head {
-}
-
  .choose-plan-line-after {
 	font-size: 36px;
 	font-family: "Roboto";
@@ -599,25 +599,102 @@
 	padding-top: 40px;
 }
 
-
-.choose-plan-price h3 {
+.type-plan {
+	display: block;
 	font-size: 14px;
 	font-family: "Roboto";
 	color: rgb(255, 255, 255);
 	font-weight: bold;
+	line-height: 1.2;
+	text-align: center;
 	-moz-transform: matrix( 0.99713955328343,0,0,0.99096774193548,0,0);
 	-webkit-transform: matrix( 0.99713955328343,0,0,0.99096774193548,0,0);
 	-ms-transform: matrix( 0.99713955328343,0,0,0.99096774193548,0,0);
-	text-transform: uppercase;
-}
+ }
 
- .choose-plan-price h2 {
+ .name-plan {
+	 display: block;
 	font-size: 36.328px;
 	font-family: "Roboto";
-	font-weight: lighter;
 	color: rgb(255, 255, 255);
+	line-height: 1.2;
+	text-align: center;
 	-moz-transform: matrix( 0.99713955328343,0,0,0.99096774193548,0,0);
 	-webkit-transform: matrix( 0.99713955328343,0,0,0.99096774193548,0,0);
 	-ms-transform: matrix( 0.99713955328343,0,0,0.99096774193548,0,0);
-	padding-top: 10px;
-}
+ }
+
+ .plan-price {
+	 min-height: 130px;
+	 background-color: #0e1316;
+	 display: flex;
+	 justify-content: center;
+	 flex-direction: column;
+ }
+
+ .desc-plan {
+	 min-height: 320px;
+	 background-color: #1f282c;
+	 display: flex;
+	 flex-direction: column;
+	 align-items: center;
+ }
+
+ .plan-item {
+border: 2px solid #171f23;
+ }
+ 
+ .plan-item:hover {
+	border: 2px solid #f6744b;
+ }
+
+ .desc-plan-list {
+	 list-style: none;
+	 text-align: center;
+	 padding: 0;
+	 padding-top: 40px;
+ }
+ 
+ .desc-plan-list span {
+	font-size: 14px;
+	font-family: "Myriad Pro";
+	color: rgb(255, 255, 255);
+	line-height: 1.2;
+	text-align: center;
+ }
+
+ .plan-item:hover .desc-plan-list span {
+	color: #f6744b;
+ }
+
+ .desc-plan-list p {
+	 display: inline-block;
+	font-size: 14px;
+	font-family: "Myriad Pro";
+	color: rgb(255, 255, 255);
+	line-height: 1.2;
+	text-align: center;
+ }
+
+ .button-purchase {
+	 display: block;
+	 font-size: 14px;
+	 font-family: "Roboto";
+	 color: rgb(255, 255, 255);
+	 font-weight: bold;
+	 line-height: 1.2;
+	 padding: 15px 25px;
+	 background-color: #f6744b;
+	 text-align: center;
+	 text-transform: uppercase;
+	 width: 50%;
+	 border-radius: 10px;
+	 margin-top:10px;
+ }
+ 
+ .button-purchase:hover {
+	text-decoration: none;
+	color: #fff;
+ }
+
+ 
