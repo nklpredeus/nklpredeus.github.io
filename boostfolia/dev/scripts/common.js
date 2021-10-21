@@ -1,11 +1,23 @@
-$('.hamburger').click(function(){
-	$('.mobile-menu').addClass('active');
-	$('.hamburger').addClass('is-active');
-})
-$(document).mouseup(function (e) {
-    var container = $(".mobile-menu.active");
-    if (container.has(e.target).length === 0){
-        container.removeClass('active');
-        $('.hamburger').removeClass('is-active');
-    }
+
+
+$(document).ready(function () {
+
+	//Кнопка вверх
+
+	// $(window).scroll(function () {
+	// 	if ($(this).scrollTop() != 0) {
+	// 		$('#toTop').fadeIn();
+	// 	} else {
+	// 		$('#toTop').fadeOut();
+	// 	}
+	// });
+	// $('#toTop').click(function () {
+	// 	$('body,html').animate({ scrollTop: 0 }, 800);
+	// });
+
+
+	var mixer = mixitup('.work-items');
+
 });
+
+

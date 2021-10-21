@@ -196,18 +196,19 @@
 	display: inline-block;
 	margin-left: 30px;
 }
-.latest-works-items a {
+.latest-works-items span {
 	font-family: "Roboto";
 	color: #3d3d3d;
 	font-weight: lighter;
 	text-transform: uppercase;
 	padding-bottom: 5px;
 }
-.latest-works-items a:hover {
+.latest-works-items span:hover {
 	text-decoration: none;
 	color: #222;
 	font-weight: bold;
 	border-bottom: 2px solid #e84c3d;
+	cursor: pointer;
 }
 .work-items {
 	display: flex;
