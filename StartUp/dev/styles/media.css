@@ -9,6 +9,33 @@
     	margin-left: 30px;
     	margin-top: 0px;
 	}
+	.team-arrow-left {
+		position: absolute;
+		top: 115px;
+		left: -30px;
+		cursor: pointer;
+  }
+  
+  .team-arrow-right {
+		position: absolute;
+		top: 115px;
+		right: -30px;
+		cursor: pointer;
+  }
+
+  .brand-arrow-left {
+	position: absolute;
+	top: 15px;
+	left: -15px;
+	cursor: pointer;
+}
+
+.brand-arrow-right {
+	position: absolute;
+	top: 15px;
+	right: -15px;
+	cursor: pointer;
+}
 }
 
 /*-------------------------------------------*/
@@ -91,6 +118,20 @@
 	#toTop {
 		right:88%;
 	}
+
+	.team-arrow-left {
+		position: absolute;
+		top: 115px;
+		left: -30px;
+		cursor: pointer;
+  }
+  
+  .team-arrow-right {
+		position: absolute;
+		top: 115px;
+		right: -30px;
+		cursor: pointer;
+  }
 }
 
 /*--------------------------------------------*/
