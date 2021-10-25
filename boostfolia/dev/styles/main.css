@@ -709,4 +709,145 @@ border: 2px solid #171f23;
 	color: #fff;
  }
 
+ .getintouch-form {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 30px;
+ }
+
+ .getintouch-form-item {
+	min-width: 49%;
+	border: none;
+	border-bottom: 1px solid #cacaca;
+ }
+
+ .text-item {
+	min-width: 100%;
+	border: none;
+	border-bottom: 1px solid #cacaca;
+	margin-bottom: 50px;
+ }
+
+ .form-item-name {
+	 display: block;
+	 min-width: 49%;
+	 text-transform: uppercase;
+	 font-size: 14px;
+	 font-family: "Roboto";
+	 font-weight: bold;
+	 line-height: 1.2;
+	 color: rgb(105, 105, 105);
+	 letter-spacing: 2px;
+	 margin-top: 50px;
+ }
+
+ .form-button {
+	font-size: 14px;
+	font-family: "Roboto";
+	color: #f26c4f;
+	background-color: #fff;
+	font-weight: bold;
+	padding: 15px 40px;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	border: 2px solid #f6744b;
+	transition: 0.3s;
+ }
+
+ .getintouch-form a:hover {
+	color: #fff;
+	background-color: #f6744b;
+}
+.red-star {
+	color: red;
+	width: 10px;
+}
+
+.form-button:hover {
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+ }
+
+ .line-footer span {
+		font-size: 24px;
+		font-family: "Roboto";
+		color: rgb(255, 255, 255);
+		font-weight: bold;
+		line-height: 1.2;
+		text-align: center;
+		text-transform: uppercase;
+ }
+
+ .line-footer {
+	 min-height: 85px;
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+ }
+ .top-line-footer {
+	 background-color: #0c1215;
+	 min-height: 85px;
+	 margin-top: 30px;
+ }
+
+ .line-footer img {
+	margin-left: 20px;
+ }
+ .content-footer {
+	min-height: 240px;
+	background-color: #171f23;
+ }
+ .content-footer img {
+	 text-align: center;
+	 margin: 0 auto;
+ }
+ .content-footer-lists {
+	 display: flex;
+	 justify-content: center;
+	 flex-direction: column;
+	 align-items: center;
+ }
+
+.content-footer-ul {
+	padding: 0;
+	text-align: center;
+	margin-top: 50px;
+	list-style: none;
+	color: #fff;
+	text-transform: uppercase;
+ }
+
+ .footer-boostfolia {
+	font-size: 24px;
+	font-family: "BigNoodleTitling";
+	color: rgb(255, 255, 255);
+	line-height: 1.2;
+ }
+
+ .content-footer-ul-item {
+	 margin-top: 15px;
+ }
+
+ .made-with {
+	font-size: 14px;
+	font-family: "Roboto";
+	color: rgb(255, 255, 255);
+	line-height: 1.2;
+ }
+
+ .footer-social {
+	 list-style: none;
+	 padding: 0;
+ }
+
+ .footer-social-item {
+	display: inline-block;
+	padding: 0 10px;
+	cursor: pointer;
+ }
+ 
+
  
