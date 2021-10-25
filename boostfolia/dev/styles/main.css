@@ -654,6 +654,7 @@
 
  .plan-item {
 border: 2px solid #171f23;
+transition: 0.4s;
  }
  
  .plan-item:hover {
@@ -669,20 +670,23 @@ border: 2px solid #171f23;
  
  .desc-plan-list span {
 	font-size: 14px;
-	font-family: "Myriad Pro";
+	font-family: "Roboto";
 	color: rgb(255, 255, 255);
 	line-height: 1.2;
 	text-align: center;
+	transition: 0.4s;
+
  }
 
  .plan-item:hover .desc-plan-list span {
 	color: #f6744b;
+	font-weight: bold;
  }
 
  .desc-plan-list p {
 	 display: inline-block;
 	font-size: 14px;
-	font-family: "Myriad Pro";
+	font-family: "Roboto";
 	color: rgb(255, 255, 255);
 	line-height: 1.2;
 	text-align: center;
