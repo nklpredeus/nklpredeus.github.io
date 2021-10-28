@@ -1,0 +1,498 @@
+@media (max-width: 1199px) {
+	.blog-text {
+    	padding-left: 30px;
+	}
+	.heading-wrapper {
+		margin-left: 15px;
+	}
+	.published {
+    	margin-left: 30px;
+    	margin-top: 0px;
+	}
+	.team-arrow-left {
+		position: absolute;
+		top: 115px;
+		left: -30px;
+		cursor: pointer;
+   }
+  .team-arrow-right {
+		position: absolute;
+		top: 115px;
+		right: -30px;
+		cursor: pointer;
+   }
+  .brand-arrow-left {
+	position: absolute;
+	top: 15px;
+	left: -15px;
+	cursor: pointer;
+	}
+.brand-arrow-right {
+	position: absolute;
+	top: 15px;
+	right: -15px;
+	cursor: pointer;
+	}
+	.header-content h1 {
+		font-size: 55px;
+	}
+}
+
+/*-------------------------------------------*/
+
+@media (max-width: 992px){
+	.main-header {
+		min-height: 90vh;
+		background-repeat: no-repeat;
+	}
+	.main-menu {
+		display: none;
+	}
+	.hamburger {
+		display: block;
+	}
+	.header-content {
+		margin-top: 125px;
+	}
+	.header-content h1 {
+		font-size: 45px;
+		line-height: 1.3;
+		text-align: center;
+	}
+	.header-content p {
+		font-size: 20px;
+	}
+	.post-item img {
+	    width: 100%;
+	    height: 100%;
+	    object-fit: cover;
+	    object-position: -39px 0px;
+	}
+	.brand-content {
+    	margin-top: 40px;
+	}
+	.google-inc {
+    	margin-bottom: 40px;
+	}
+	.get-in-touch {
+    	margin-top: 40px;
+	}
+	.footer-list {
+		padding: 0;
+		margin-top: 70px;
+	}
+	.main-footer {
+		min-height: 150px;
+	}
+	.published {
+    	margin-left: 30px;
+    	margin-top: 0px;
+	}
+	#toTop {
+		right:88%;
+	}
+	.team-arrow-left {
+		position: absolute;
+		top: 115px;
+		left: -30px;
+		cursor: pointer;
+  }
+  .team-arrow-right {
+		position: absolute;
+		top: 115px;
+		right: -30px;
+		cursor: pointer;
+  }
+}
+/*--------------------------------------------*/
+@media (max-width: 767px){
+	.main-header {
+		min-height: 90vh;
+		background-repeat: no-repeat;
+	}
+	.main-menu {
+		display: none;
+	}
+	.hamburger {
+		display: block;
+		margin-top: 35px;
+	}
+	.header-content {
+		margin-top: 110px;
+	}
+	.header-content h1 {
+		font-size: 40px;
+		line-height: 1.3;
+		text-align: center;
+	}
+	.header-content p {
+		font-size: 15px;
+	}
+	.brand-content {
+    	margin-top: 40px;
+	}
+	.contacts-item {
+		margin-bottom: 10px;
+	}
+	.google-inc {
+		margin-top: 20px;
+		margin-bottom: 30px;
+	}
+	.get-in-touch {
+    	margin-top: 30px;
+	}
+	.work-item-content {
+		margin-top: 50px;
+	}
+	.wokr-item-button {
+		padding: 10px 20px;
+	}
+	.our-team {
+	    margin-bottom: 25px;
+	    padding-bottom: 25px;
+	}
+	.getCall {
+		padding-left: 0px;
+	}
+	.getCall input {
+    	width: 100%;
+	}
+	.address {
+    	font-size: 16px;
+    	margin-left: 3px; 
+	}
+	.address-item {
+    	font-size: 15px;
+    	margin-left: 20px;
+	}
+	.about-reply {
+	    margin-top: 25px;
+	    margin-bottom: 0;
+	    font-size: 12px;
+	}
+	.main-footer {
+    	margin-top: 30px;
+	}
+	.published {
+	    margin-left: 0;
+	    margin-top: 15px;
+	}
+	.post-item img {
+	    width: 100%;
+	    object-fit: cover;
+	    object-position: 0px 0px;
+	}
+	.blog-text {
+    	padding-left: 0px;
+	}
+	#toTop {
+		right: 85%;
+	}
+}
+
+/*--------------------------------------------*/
+
+@media (max-width: 575px){
+	heading-wrapper.main-header {
+		min-height: 100vh;
+		background-repeat: no-repeat;
+	}
+	.main-menu {
+		display: none;
+	}
+	.hamburger {
+		display: block;
+		margin-top: 25px;
+	}
+	.header-content {
+		margin-top: 120px;
+	}
+	.header-content h1 {
+		font-size: 31px;
+	}
+	.header-content p {
+		font-size: 16px;
+		margin-bottom: 80px;
+	}
+	.hamburger {
+    	margin-top: -60px;
+    	float: right;
+	}
+	.services {
+		display: flex;
+		flex-direction: column;
+	}
+	.published {
+    	display: flex;
+    	justify-content: flex-start;
+    	margin-left: 0;
+	}
+	.blog-text {
+    	padding-left: 0;
+	}
+	.date {
+		font-size: 20px;
+		height: 50px;
+		width: 66px;
+		padding-top: 5px;
+		margin-top: 10px;
+	}
+	.heading-wrapper h2 {
+		margin-left: 0;
+		font-size: 20px;
+	}
+	.read-more {
+		margin-left: 0;
+	}
+	.heading-wrapper h2 {
+		margin-left: 0px;
+	}
+	.brand-content {
+    	margin-top: 40px;
+	}
+	.google-inc {
+		margin-top: 20px;
+		margin-bottom: 30px;
+	}
+	.get-in-touch {
+    	margin-top: 30px;
+	}
+	.getCall input {
+    	width: 100%;
+	}
+	.address {
+    	font-size: 15px;
+    	margin-left: 3px; 
+	}
+	.address-item {
+    	font-size: 14px;
+    	margin-left: 20px;
+	}
+	.about-reply {
+	    margin-top: 25px;
+	    margin-bottom: 0;
+	    font-size: 12px;
+	}
+	.main-footer {
+    	margin-top: 30px;
+	}
+	.getCall {
+    	padding-left: 0px;
+	}
+	.post-item img {
+	    width: 100%;
+	    background-size: none;
+	    object-fit: none;
+	    object-position: none;
+	}
+	#toTop {
+		right: 70%;
+	}
+}
+
+/*--------------------------------------------*/
+
+@media (max-width: 415px){
+	.main-header {
+		min-height: 100vh;
+		background-repeat: no-repeat;
+	}
+
+	.main-menu {
+		display: none;
+	}
+
+	.hamburger {
+		display: block;
+		margin-top: -35px;
+	}
+
+	.header-content {
+		margin-top: 100px;
+	}
+
+	.header-content h1 {
+		font-size: 35px;
+    	line-height: 1.3;
+    	text-align: center;
+	}
+
+	.header-content p {
+		font-size: 16px;
+		margin-bottom: 80px;
+		text-align: center;
+	}
+
+	.hamburger {
+	    margin-top: -60px;
+	    float: right;
+	}
+	.services h2.line-after {
+		margin-top: 50px;
+	}
+	.services-item {
+		margin-top: 30px
+	}
+	.about h2 {
+		margin-top: 50px;
+	}
+	.work-item-content {
+		margin-top: 70px;
+	}
+	.date {
+		font-size: 20px;
+		height: 50px;
+		width: 66px;
+		padding-top: 5px;
+		margin-top: 10px;
+	}
+	.heading-wrapper h2 {
+		    margin-left: 0;
+			font-size: 20px;
+	}
+	.read-more {
+		margin-left: 0;
+	}
+	.brand-content {
+    	margin-top: 40px;
+    }
+    .google-inc {
+    	margin-top: 20px;
+    	margin-bottom: 20px;
+	}
+	.get-in-touch {
+    	margin-top: 35px;
+	}
+	.blog-text {
+		padding-left: 0px;
+	}
+	.post-item img {
+		height: none;
+		object-fit: none;
+		object-position: none;
+	}
+	.heading-wrapper {
+		padding-left: 15px;
+		padding-top: 3px;
+	}
+	.address {
+		font-size: 15px;
+	}
+	.address-item {
+    	font-size: 14px;
+    	margin-left: 0px;
+	}
+	.getCall {
+    	padding-left: 0px;
+	}
+	#toTop {
+		right: 70%;
+	}
+	.footer-list {
+		margin-top: 50px;
+	}
+}
+
+/*--------------------------------------------*/
+
+@media (max-width: 320px){
+	.main-header {
+		min-height: 100vh;
+		background-repeat: no-repeat;
+	}
+
+	.main-menu {
+		display: none;
+	}
+
+	.hamburger {
+		display: block;
+	}
+
+	.header-content {
+		margin-top: 100px;
+	}
+
+	.header-content h1 {
+		font-size: 35px;
+		line-height: 1.3;
+		text-align: center;
+	}
+
+	.header-content p {
+		font-size: 16px;
+		margin-bottom: 80px;
+		text-align: center;
+	}
+	.hamburger {
+	    margin-top: -35px;
+	    float: right;
+	}
+	.services h2.line-after {
+		margin-top: 50px;
+	}
+	.services-item {
+		margin-top: 30px
+	}
+	.about h2 {
+		margin-top: 50px;
+	}
+	.work-item-content {
+		margin-top: 70px;
+	}
+	.date {
+		font-size: 20px;
+		height: 50px;
+		width: 66px;
+		padding-top: 5px;
+		margin-top: 10px;
+	}
+	.heading-wrapper h2 {
+		    margin-left: 0;
+			font-size: 20px;
+	}
+	.read-more {
+		margin-left: 0;
+	}
+
+	.brand-content {
+    	margin-top: 40px;
+    }
+    .google-inc {
+    	margin-top: 20px;
+    	margin-bottom: 20px;
+	}
+	.get-in-touch {
+    	margin-top: 35px;
+	}
+	.blog-text {
+		padding-left: 0px;
+	}
+	.heading-wrapper {
+		padding-left: 15px;
+		padding-top: 3px;
+	}
+	.address {
+		font-size: 15px;
+	}
+	.address-item {
+    	font-size: 14px;
+    	margin-left: 0px;
+	}
+	.form-button {
+    	font-weight: bolder;
+    	padding: 5px 30px;
+    	text-align: center;
+	}
+	.getCall {
+    	padding-left: 0px;
+	}
+	#toTop {
+		right: 70%;
+	}
+	.footer-list {
+		margin-top: 50px;
+		display: flex;
+		flex-wrap: wrap;
+	}
+}

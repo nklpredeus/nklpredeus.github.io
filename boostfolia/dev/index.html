@@ -9,10 +9,10 @@
 	<link rel="stylesheet" type="text/css" href="libs/bootstrap/css/bootstrap-grid.min.css">
 	<link rel="stylesheet" type="text/css" href="libs/hamburgers/hamburgers.min.css">
 	<link rel="stylesheet" href="libs/slick/slick.css">
+	<link rel="stylesheet" href="libs/lity-2.4.1/dist/lity.min.css">
 	<link rel="stylesheet" type="text/css" href="styles/main.css">
-	<link href="dist/hamburgers.css" rel="stylesheet">
 	<link rel="stylesheet" href="styles/media.css">
-	<link rel="preload" href="fonts/MyriadPro-Light.otf" as="font">
+	<link rel="preload" href="fonts/MyriadPro-Light.woff2" as="font">
 </head>
 
 <body>
@@ -136,7 +136,7 @@
 		<div class="works">
 			<div class="work-items">
 				<div class="item mix branding-mix">
-					<img src="images/1.jpg" alt="1">
+					<a href="images/1.jpg" data-lity><img src="images/1.jpg" alt="1"></a>
 				</div>
 				<div class="item mix photography-mix">
 					<img src="images/2885085499_modulnaya-kartina-flamingo.jpg" alt="2">
@@ -668,6 +668,9 @@
 								<li class="footer-social-item">
 									<img src="images/tw-footer.png" alt="">
 								</li>
+								<li class="footer-social-item">
+									<a href="#callback-form" data-lity>Callback</a>
+								</li>
 							</ul>
 						</div>
 					</div>
@@ -675,9 +678,44 @@
 			</div>
 		</div>
 	</footer>
+
+
+	<div id="callback-form" class="modal-form lity-hide">
+		<div class="getintouch">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<form class="getintouch-form" action="#">
+							<span class="form-item-name">name <span class="red-star">*</span></span>
+							<span class="form-item-name">E-mail <span class="red-star">*</span></span>
+							<input class="getintouch-form-item" type="text">
+							<input class="getintouch-form-item" type="text">
+							<span class="form-item-name">Message <span class="red-star">*</span></span>
+							<textarea class="text-item" name="textarea"></textarea>
+							<a class="form-button" href="#">
+								Send Message
+							</a>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<div class="progress-item">
+					<div class="progress" style="width:90%;"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
 	<script src="scripts/jquery.min.js"></script>
 	<script src="libs/slick/slick.js"></script>
 	<script src="libs/mixer/mixitup.min.js"></script>
+	<script src="libs/lity-2.4.1/dist/lity.min.js"></script>
 	<script src="scripts/common.js"></script>
 </body>
 
