@@ -10,8 +10,7 @@ html {
 	scroll-behavior: smooth;
 }
 .main-header {
-	background: url(../images/top-bg.jpg);
-	min-height: 770px;
+	min-height: 100px;
 }
 .main-menu {
 	list-style: none;
@@ -61,7 +60,7 @@ html {
 	margin-left: 45px;
 }
 .main-menu a {
-	color: #fff;
+	color: #555555;
 	font-size: 15px;
 	font-family: 'Montserrat', sans-serif;
 	text-decoration: none;
@@ -87,107 +86,7 @@ html {
 .logo {
 	margin-top: 40px;
 }
-.header-content {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	margin-top: 200px;
-}
-.header-content h1 {
-	color: #fff;
-	font-family: 'Montserrat', sans-serif;
-	text-transform: uppercase;
-	margin-bottom: 20px;
-	font-size: 60px;
-	line-height: 0.5;
-	color: #ffffff;
-	background-color: orange;
-}
-.header-content p {
-	color: #ffffff;
-	font-family: 'Roboto Slab', serif;
-	margin-bottom: 35px;
-	font-size: 24px;
-}
- /*-------------------------------------------------- Стили мейн ------------------------------------------------*/
 
-
-
-h2.line-after:after {
-	content: '';
-	display: block;
-	background-color: black;
-	width: 50px;
-	height: 2px;
-	margin: 20px auto 20px auto;
-}
-.about {
-	text-align: center;
-	color: #555555;
-	font-family: 'Roboto Slab', serif;
-	background-color: #f8f8f8;
-	min-height: 635px;
-}
-.about h2 {
-	margin-top: 20px;
-	margin-bottom: 20px;
-	color: #555555;
-	font-family: 'Montserrat', sans-serif;
-	margin-top: 50px;
-	position: relative;
-	text-transform: uppercase;
-}
-.our-team {
-	margin-top: 50px;
-	margin-bottom: 50px;
-}
-.team-slider {
-	position: relative;
-}
-.team-arrow-left {
-	 position: absolute;
-    top: 90px;
-    left: -30px;
-    cursor: pointer;
-}
-.team-arrow-right {
-	 position: absolute;
-    top: 90px;
-    right: -30px;
-    cursor: pointer;
-}
-.team-item {
-	cursor: pointer;
-	padding: 15px;
-}
-.team-item h4 {
-	text-transform: uppercase;
-	margin-top: 25px;
-}
-.team-item-wrapper {
-	position: relative;
-}
-.team-item-wrapper img {
-	width: 100%;
-}
-.team-item-wrapper:after {
-	content: '';
-	display: block;
-	background-color: rgba(0, 0, 0, 0);
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	transition: 0.2s;
-}
-.team-item:hover .team-item-wrapper:after {
-	background-color: rgba(216, 120, 10, 0.226);
-}
-.slick-slide img {
-	margin: 0 auto;
-	cursor: pointer;
-}
 .h2-par {
 	text-align: center;
 	color: #555555;
@@ -300,28 +199,6 @@ h2.line-after:after {
 	width: 27px;
 	transition: 0.3s;
 }
-#toTop {
-	width:100px;
-	border:1px solid #ccc;
-	background:#f7f7f7;
-	text-align:center;
-	padding:5px;
-	position:fixed;
-	bottom:10px; /* отступ кнопки от нижнего края страницы*/
-	right:10px;
-	cursor:pointer;
-	display:none;
-	color:#333;
-	font-family:verdana;
-	font-size:11px;
-	font-family: 'Montserrat', sans-serif;
-	text-transform: uppercase;
-	color: #f7a520;
-	font-weight: 600;
-	font-size: 13px;
-	border-radius: 4px;
-	border: 2px solid #ccc;
-	}
 	.privacy {
 		text-align: center;
 		margin-top: 10px;
