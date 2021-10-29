@@ -451,6 +451,7 @@ input:focus, textarea:focus {
 
 	.privacy a:hover{
 		text-decoration: none;
+		color: #fff;
 	}
 
 	.footer-wrapper {

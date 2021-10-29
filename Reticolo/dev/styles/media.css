@@ -11,30 +11,21 @@
 	}
 	.team-arrow-left {
 		position: absolute;
-		top: 115px;
+		top: 75px;
 		left: -30px;
 		cursor: pointer;
    }
   .team-arrow-right {
 		position: absolute;
-		top: 115px;
+		top: 75px;
 		right: -30px;
 		cursor: pointer;
    }
-  .brand-arrow-left {
-	position: absolute;
-	top: 15px;
-	left: -15px;
-	cursor: pointer;
-	}
-.brand-arrow-right {
-	position: absolute;
-	top: 15px;
-	right: -15px;
-	cursor: pointer;
-	}
 	.header-content h1 {
 		font-size: 55px;
+	}
+	.privacy {
+		margin-bottom: 10px;
 	}
 }
 
@@ -93,16 +84,19 @@
 	}
 	.team-arrow-left {
 		position: absolute;
-		top: 115px;
+		top: 75px;
 		left: -30px;
 		cursor: pointer;
   }
   .team-arrow-right {
 		position: absolute;
-		top: 115px;
+		top: 75px;
 		right: -30px;
 		cursor: pointer;
   }
+  .privacy {
+	margin-bottom: 10px;
+}
 }
 /*--------------------------------------------*/
 @media (max-width: 767px){
@@ -188,8 +182,51 @@
 	#toTop {
 		right: 85%;
 	}
+	.contacts {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		text-align: center;
+		margin-top: 25px;
 }
 
+.footer-wrapper {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.footer-list {
+	padding: 0;
+	margin-top: 20px;
+}
+
+.footer-list li {
+	display: inline-block;
+}
+
+.footer-wrapper nav ul {
+	padding: 0;
+	text-align: center;
+}
+
+.footer-wrapper nav {
+	margin-top: 0;
+}
+
+.footer-wrapper nav ul li {
+	margin-left: 20px;
+	margin-top: 0;
+	display: inline-block;
+}
+
+.footer-line {
+	margin-top: 0;
+}
+
+.privacy {
+	margin-bottom: 10px;
+}
 /*--------------------------------------------*/
 
 @media (max-width: 575px){
@@ -287,6 +324,14 @@
 	}
 	#toTop {
 		right: 70%;
+	}
+	.contacts-item {
+		text-align: center;
+  }
+  .privacy {
+		margin-bottom: 10px;
+		display: flex;
+		flex-direction: column;
 	}
 }
 
