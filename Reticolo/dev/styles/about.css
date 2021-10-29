@@ -108,7 +108,11 @@ html {
 
 .contact-box {
 	display: flex;
-	flex-direction: column;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.contact-box a{
+	color: blue!important;
 }
 .address {
   font-size: 17px;
@@ -126,7 +130,6 @@ html {
   color: rgb(85, 85, 85);
   line-height: 1.667;
   display: flex;
-  justify-content: space-around;
   flex-wrap: wrap;
 }
 .address-item a {
