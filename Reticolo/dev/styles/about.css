@@ -100,6 +100,16 @@ html {
 	color: #555555;
 	font-family: 'Roboto Slab', serif;
 }
+.contact-it {
+	font-size: 20px;
+	font-weight: bold;
+	color: blue;
+}
+
+.contact-box {
+	display: flex;
+	flex-direction: column;
+}
 .address {
   font-size: 17px;
   font-family: "Montserrat";
@@ -115,8 +125,9 @@ html {
   font-family: "RobotoSlab";
   color: rgb(85, 85, 85);
   line-height: 1.667;
-  margin-left: 40px;
-  display: block;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 .address-item a {
 	color: rgb(85, 85, 85);
