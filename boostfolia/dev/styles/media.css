@@ -36,8 +36,12 @@
 	.logo {
 		margin-top: 50px;
 	}
+	.main-menu {
+		display: none;
+	}
 	.hamburger {
 		margin-top: 45px;
+		display: block;
 	}
 	.content-header h1 {
 		margin-top: 210px;

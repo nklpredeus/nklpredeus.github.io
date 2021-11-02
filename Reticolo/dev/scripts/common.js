@@ -19,6 +19,7 @@ $(document).ready(function () {
 	});
 
 	$(window).scroll(function () {
+		v
 		if ($(this).scrollTop() != 0) {
 			$('#toTop').fadeIn();
 		} else {
