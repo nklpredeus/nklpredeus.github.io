@@ -122,6 +122,15 @@
 	margin-bottom: 40px;
 }
 
+.img-wrapper {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.img-wrapper img {
+	width: 100%;
+}
+
 .app-load-line, .ofrece-line {
 	height: 2px;
 	width: 80%;
