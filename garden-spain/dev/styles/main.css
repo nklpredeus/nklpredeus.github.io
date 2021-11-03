@@ -130,7 +130,10 @@
 .img-wrapper img {
 	width: 100%;
 }
-
+.price-img {
+	display: block;
+	text-align: center;
+}
 .app-load-line, .ofrece-line {
 	height: 2px;
 	width: 80%;

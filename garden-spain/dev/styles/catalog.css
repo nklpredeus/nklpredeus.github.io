@@ -94,7 +94,10 @@
 	width: 100%;
 }
 
-
+.price-img {
+	display: block;
+	text-align: center;
+}
 
 
 .main-footer {
