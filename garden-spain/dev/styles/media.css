@@ -1,5 +1,18 @@
-@media (max-width: 1199px) {
+@media (min-width: 1200px) {
+	.main-header {
+		min-height: 100vh;
+	}	
+}
 
+@media (max-width: 1199px) {
+	.support-contact h2 {
+		margin-top: 5px;
+  }
+  .main-header {
+	background: url(../images/top-bg.jpg);
+	min-height: 580px;
+	background-size: 100%;
+	}
 }
 
 @media (max-width: 992px) {
@@ -18,23 +31,46 @@
 	.hamburger {
 		display: block;
 	}
+	.support-contact h2 {
+		margin-top: 50px;
+   }
+  .main-content-item {
+		height: 190px;
+	}
+	.main-header {
+		min-height: 60vh;
+  }
+  .footer-menu {
+	flex-wrap: wrap;
+}
 }
 
 @media (max-width: 768px) {
 	.header-text {
-		margin-top: 80px;
+		margin-top: 0;
    }
 	.mucho-mas {
-		font-size: 35px;
+		font-size: 40px;
    }
 	.lo-mejor {
-		font-size: 17px;
+		font-size: 23px;
+		margin-top: 10px;
    }
+	.main-content-item {
+		height: 260px;
+   }
+  .main-header {
+		background: url(../images/top-bg.jpg) no-repeat;
+		min-height: 290px;
+		background-size: 100%;
+	}
+	
 }
 
 @media (max-width: 576px) {
 	.mucho-mas {
-		font-size: 35px;
+		font-size: 60px;
+		margin-top: 80px;
    }
 	.header-text {
 		margin-top: 45px;
@@ -43,11 +79,18 @@
 
 @media (max-width: 532px) {
 	.lo-mejor {
-		font-size: 14px;
-   }
+		font-size: 15px;
+		margin-top: 23px;
+  }
 	.mucho-mas {
-		font-size: 22px;
+		font-size: 30px;
+		margin-top: 25px;
    }
+	.main-header {
+		background: url(../images/top-bg.jpg) no-repeat;
+		min-height: 290px;
+		background-size: 100%;
+		}
 	.header-text {
 		margin-top: 9px;
    }
@@ -58,6 +101,9 @@
 	.hamburger {
 		margin-top: 20px;
   }
+  .main-content-item {
+	height: 250px;
+ }
 }
 
 @media (max-width: 321px) {

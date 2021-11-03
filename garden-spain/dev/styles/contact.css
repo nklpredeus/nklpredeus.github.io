@@ -85,17 +85,22 @@
     background-color: transparent;
 }
 
-.img-wrapper {
-	border: 2px dotted #5caa43;
-	margin-top: 15px;
+.text-content {
+
+}
+.h2-par {
+	text-transform: uppercase;
+	text-align: center;
+}
+.paragraph {
+	text-align: center;
+	display: block;
 }
 
-.img-wrapper img {
-	width: 100%;
+.contact-box {
+	display: flex;
+	justify-content: center;
 }
-
-
-
 
 .main-footer {
 	background-color: rgb(36, 36, 36);
