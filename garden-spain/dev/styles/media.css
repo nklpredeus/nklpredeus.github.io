@@ -80,19 +80,19 @@
 @media (max-width: 532px) {
 	.lo-mejor {
 		font-size: 15px;
-		margin-top: 23px;
+		margin-top: 0;
   }
-	.mucho-mas {
-		font-size: 30px;
-		margin-top: 25px;
-   }
+  .mucho-mas {
+		font-size: 25px;
+		margin-top: 0px;
+	}	
 	.main-header {
 		background: url(../images/top-bg.jpg) no-repeat;
-		min-height: 290px;
+		min-height: 200px;
 		background-size: 100%;
-		}
+	}
 	.header-text {
-		margin-top: 9px;
+		margin-top: 0;
    }
 	.header-logo {
 		height: 50px;
@@ -100,10 +100,10 @@
 	}
 	.hamburger {
 		margin-top: 20px;
-  }
+   }
   .main-content-item {
 	height: 250px;
- }
+	}
 }
 
 @media (max-width: 321px) {
