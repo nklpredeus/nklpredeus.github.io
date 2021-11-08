@@ -1,15 +1,14 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
 
 :root {
 	 --color-h1: #3a3a3a;
 	 --color-h2: #3a3a3a;
 	 --colorP: #3a3a3a;
-	 --myfont-h1: "BigNoodleTitling", sans-serif;
-	 --myfont-a: "BigNoodleTitling", sans-serif;
-	 --myfont-h2: 'Roboto', sans-serif;
-	 --myfont-p: 'Roboto', sans-serif;
+	 --myfont-h1: 'Noto Sans', sans-serif;
+	 --myfont-a: 'Noto Sans', sans-serif;
+	 --myfont-h2: 'Roboto Mono', monospace;
+	 --myfont-p: 'Roboto Mono', monospace;
 }
 
 * {
@@ -69,107 +68,8 @@ img.cover {
 	clear: both;
 }
 
-/* .hamburger {
-	margin-top: 35px;
-	float: right;
-	display: none;
-}
-.hamburger-inner, .hamburger-inner::after, .hamburger-inner::before {
-	background-color: #ffffff;
-}
-.hamburger.is-active .hamburger-inner, .hamburger.is-active .hamburger-inner::after, .hamburger.is-active .hamburger-inner::before {
-    background-color: transparent;
-}
-
-.main-header-wrapper {
-	background: url(../images/book2.jpg) no-repeat;
-	min-height: 100vh;
-	background-size: cover;
-}
-
-.body-about .main-header-wrapper {
-	background:none;
-	background-color: #000;
-	min-height: 100px;
-}
-
-.body-about .main-menu {
-	justify-content: flex-end;
-}
-
-.main-menu {
-	margin-top: 40px;
-	display: flex;
-   justify-content: flex-start;
-}
-.main-menu li {
-	margin: 0 20px 0 20px;
-}
-.main-menu a {
-	color: #fff;
-	font-size: 15px;
-	font-family: var(--myfont-a);
-	text-decoration: none;
-	text-transform: uppercase;
-	transform: 0.3s;
-	font-weight: bold;
-	transition: 0.3s;
-}
-.mobile-menu {
-	position: fixed;
-	display: flex;
-	align-items: center;
-	z-index: 997;
-	height: 100%;
-	width: 100%;
-	max-width: 250px;
-	top: 0;
-	right: -200%;
-	background-color: rgba(0, 0, 0, 0.85);
-	transition: 0.3s;
-	box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
-}
-.mobile-menu.active {
-	right: 0;
-}
-.mobile-menu ul {
-	margin-top: -60px;
-	width: 100%;
-}
-.mobile-menu li {
-	font-size: 18px;
-	text-transform: uppercase;
-}
-.mobile-menu li a {
-	display: block;
-	padding: 10px 0;
-	text-align: center;
-}
-.mobile-menu li a:hover {
-	font-weight: 650;
-}
-
-.logo {
-	margin-top: 35px;
-	height: 50px;
-}
-.header-content {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	margin-top: 90px;
-}
-.header-content h1 {
-	color: #fff;
-	font-family: var(--myfont-h1);
-	text-transform: uppercase;
-	margin-bottom: 20px;
-	font-size: 75px;
-	text-align: right;
-} */
-
 .top-line {
-	background-color: #f8f6f6;
+	background-color: #ffffff;
 	min-height: 145px;
 }
 .logo {
@@ -211,8 +111,8 @@ margin-top: 10px;
 }
 
 .mobile-menu li a {
-	font-family: "BigNoodleTitling";
-	color: #746868;
+	font-family: 'Noto Sans', sans-serif;
+	color: #008d13;
 	font-size: 25px;
 }
 
@@ -247,14 +147,14 @@ margin-top: 10px;
 }
 
 .main-menu li a {
-	font-family: "BigNoodleTitling";
-	color: #746868;
+	font-family: 'Noto Sans', sans-serif;
+	color: #0175E4;
 	font-size: 25px;
 }
 
 .main-menu li a:hover {
 	text-decoration: none;
-	color: #f15425;
+	color: #567A18;
 }
 
 .content-header {
@@ -265,18 +165,18 @@ margin-top: 10px;
 }
 
 .content-header h1 {
-	margin-top: 320px;
-	font-family: "BigNoodleTitling";
-	font-size: 72px;
-	color: rgb(214, 213, 213);
+	margin-top: 250px;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 75px;
+	color: rgb(255, 255, 255);
 	letter-spacing: 10px;
 	line-height: 1;
 }
 
 .content-header h3 {
-	font-size: 36px;
-	font-family: "BigNoodleTitling";
-	color: rgb(214, 213, 213);
+	font-size: 30px;
+	font-family: 'Noto Sans', sans-serif;
+	color: rgb(255, 255, 255);
 	line-height: 1.2;
 	letter-spacing: 5px;
 }
@@ -287,7 +187,7 @@ margin-top: 10px;
  
 .content-header span {
 	display: block;
-	font-family: 'Roboto';
+	font-family: 'Roboto Mono', monospace;
 	font-size: 12px;
 	color: rgb(255, 255, 255);
 	margin-top: 5px;
@@ -349,7 +249,7 @@ margin-top: 10px;
 }
 
 .contact-box a {
-	color: #79a1d1;
+	color: #99c805;
 	font-size: 30px;
 }
 .address {
