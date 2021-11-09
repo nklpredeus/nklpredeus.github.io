@@ -1,0 +1,47 @@
+@media (min-width: 1200px) {
+	
+}
+
+@media (max-width: 1199px) {
+
+}
+
+@media (max-width: 992px) {
+
+	.header-menu {
+		display: none;
+	}
+	.hamburger {
+		display: block;
+	}
+  .footer-menu {
+	flex-wrap: wrap;
+	}
+}
+
+@media (max-width: 768px) {
+	
+}
+
+@media (max-width: 576px) {
+	
+}
+
+@media (max-width: 532px) {
+	
+	.hamburger {
+		margin-top: 20px;
+  }
+  
+}
+
+@media (max-width: 321px) {
+	
+	.header-logo {
+		height: 35px;
+		margin-top: 20px;
+	}
+	.hamburger {
+		margin-top: 10px;
+   }
+}
