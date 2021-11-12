@@ -88,7 +88,7 @@ img.cover {
 
 .body-about .main-header-wrapper {
 	background:none;
-	background-color: #000;
+	background-color: #f5c12a3d;
 	min-height: 100px;
 }
 
@@ -101,8 +101,8 @@ img.cover {
 	margin: 0 20px 0 20px;
 }
 .main-menu a {
-	color: #fff;
-	font-size: 15px;
+	color: #970a1b;
+	font-size: 20px;
 	font-family: var(--myfont-a);
 	text-decoration: none;
 	text-transform: uppercase;
@@ -120,9 +120,9 @@ img.cover {
 	max-width: 250px;
 	top: 0;
 	right: -200%;
-	background-color: rgba(0, 0, 0, 0.85);
-	transition: 0.3s;
-	box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
+	background-color: rgb(241 201 79);
+    transition: 0.3s;
+    box-shadow: 0 0 30px #f9ba0f;
 }
 .mobile-menu.active {
 	right: 0;
@@ -139,27 +139,28 @@ img.cover {
 	display: block;
 	padding: 10px 0;
 	text-align: center;
+	color: #a13b36;
 }
 .mobile-menu li a:hover {
 	font-weight: 650;
 }
 
 .logo {
-	margin-top: 20px;
+	margin-top: 30px;
 	height: 50px;
 }
 .header-content {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin-top: 90px;
+	margin-top: 180px;
 }
 .header-content h1 {
-	color: #fff;
+	color: #f5c12a;
 	font-family: var(--myfont-h1);
 	text-transform: uppercase;
 	margin-bottom: 20px;
-	font-size: 60px;
+	font-size: 85px;
 	text-align: center;
 }
 .about {
@@ -182,7 +183,7 @@ img.cover {
 }
 
 .img-wrapper {
-	border: 2px solid #1A303D;
+	border: 2px solid #f9ba0f;
 	margin-top: 15px;
 }
 
@@ -196,15 +197,24 @@ img.cover {
 	margin-bottom: 50px;
 }
 
+.text-item {
+	margin-top: 20px;
+	font-weight: bold;
+	text-align: center;
+	font-family: var(--myfont-h1);
+}
+
 .animals {
 	background: url(../images/cover_image_prices.jpg);
 	height: 600px;
 	background-size: cover;
+	margin-top: 30px;
 }
 .text-content .h2 {
 	text-align: center;
     margin-top: 35px;
 	text-transform: uppercase;
+	color: #970a16;
 }
 .paragraph {
 	text-align: center;
@@ -218,23 +228,29 @@ img.cover {
 }
 
 .contact-box a {
-	color: #1A303D;
+	color: #f5c12a;
 	font-size: 30px;
 }
 .address {
   font-size: 17px;
-  color: rgb(255, 255, 255);
+  color: rgb(153 39 41);
   text-transform: uppercase;
   line-height: 2.143;
   text-align: center;
   margin-left: 20px;
   font-weight: bolder;
+  font-family: var(--myfont-p);
 }
 .address-item {
   font-size: 15px;
-  color: rgb(255, 255, 255);
+  color: #992729;
   line-height: 1.667;
   text-align: center;
+  font-family: var(--myfont-p);
+}
+
+.address-item a {
+	color: #992729;
 }
 .contacts {
 	margin-top: 50px;
@@ -243,26 +259,33 @@ img.cover {
    text-align: center;
 }
 .main-footer {
-	background-color: #1A303D;
-	min-height: 310px;
+	background-color: #f5c12a;
+	min-height: 240px;
 	margin-top: 50px;
-	border: 1px solid #1A303D;
+	border: 1px solid #f5c12a;
 	border-radius: 100px 100px 0 0;	
+}
+
+.main-menu-footer li a{
+	color: #992729;
+	font-family: var(--myfont-p);
 }
 .footer-line {
 	height: 2px;
-	background-color: rgb(255, 255, 255);
+	background-color: #992729;
 	width: 100%;
-	margin-top: 20px;
 }
 
 .privacy {
 	text-align: center;
 	margin-top: 10px;
+	font-weight: bold;
 }
 .privacy a {
 	margin: 0 20px 0 20px;
 	text-transform: uppercase;
+	color: #992729;
+	font-family: var(--myfont-p);
 }
 .footer-wrapper {
 	display: flex;
@@ -272,16 +295,12 @@ img.cover {
 .footer-wrapper nav ul {
 	display: flex;
 }
-.footer-wrapper nav {
-	margin-top: 45px;
-}
 .footer-wrapper nav ul li {
 	font-size: 17px;
 	color: rgb(255, 255, 255);
 	text-transform: uppercase;
 	line-height: 2.143;
 	text-align: center;
-	margin-left: 20px;
-	margin-top: 20px;
+	margin: 20px 20px 0 20px;
 	font-weight: bolder;
 }

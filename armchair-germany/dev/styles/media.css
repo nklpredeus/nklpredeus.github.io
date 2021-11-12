@@ -1,0 +1,289 @@
+@media (max-width: 1199px) {
+	.logo {
+		margin-top: 50px;
+	}
+	.hamburger {
+		margin-top: 45px;
+	}
+	.content-header img {
+		margin-top: 175px;
+   }
+	.content-header h1 {
+		margin-top: 190px;
+	}
+}
+
+@media (max-width: 992px){
+	.logo {
+		margin-top: 50px;
+	}
+	.main-menu {
+		display: none;
+	}
+	.hamburger {
+		margin-top: 45px;
+		display: block;
+	}
+	.content-header h1 {
+		margin-top: 210px;
+		font-size: 70px;
+	}
+	.content-header h3 {
+		font-size: 25px;
+		margin-top: 25px;
+   }
+  .content-header img {
+		margin-top: 150px;
+	}
+	.content-header {
+		min-height: 700px;
+	}
+}
+
+@media (max-width: 767px){
+	.top-line {
+		min-height: 90px;
+  }
+  .logo {
+		margin-top: 25px;
+	}
+	.hamburger {
+		margin-top: 20px;
+	}
+	.content-header h1 {
+		margin-top: 165px;
+		font-size: 50px;
+	}
+	.content-header h3 {
+		font-size: 25px;
+		margin-top: 25px;
+   }
+  .content-header img {
+		margin-top: 120px;
+	}
+	.our-team {
+	    margin-bottom: 25px;
+	    padding-bottom: 25px;
+	}
+	.getCall {
+		padding-left: 0px;
+	}
+	.getCall input {
+    	width: 100%;
+	}
+	.address {
+    	font-size: 16px;
+    	margin-left: 3px; 
+	}
+	.address-item {
+    	font-size: 15px;
+    	margin-left: 20px;
+	}
+	.main-footer {
+    	margin-top: 30px;
+	}
+	.contacts {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	text-align: center;
+	margin-top: 25px;
+	}
+
+	.footer-wrapper {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	}
+
+	.footer-list {
+		padding: 0;
+		margin-top: 20px;
+	}
+
+	.footer-list li {
+		display: inline-block;
+	}
+
+	.footer-wrapper nav ul {
+		display: flex;
+    	flex-wrap: wrap;
+   	justify-content: center;
+	}
+
+	.footer-wrapper nav {
+		margin-top: 0;
+	}
+
+	.footer-wrapper nav ul li {
+		margin-left: 20px;
+		margin-top: 0;
+		display: inline-block;
+	}
+
+	.footer-line {
+		margin-top: 0;
+	}
+
+	.privacy {
+		margin-bottom: 10px;
+	}
+}
+@media (max-width: 575px){
+	.top-line {
+		min-height: 90px;
+  }
+  .logo {
+		margin-top: 25px;
+	}
+	.hamburger {
+		margin-top: 20px;
+	}
+	.content-header {
+		min-height: 500px;
+  }
+	.content-header h1 {
+		
+		margin-top: 185px;
+		font-size: 45px;
+	}
+	.content-header h3 {
+		font-size: 25px;
+		margin-top: 25px;
+   }
+  .content-header img {
+		margin-top: 150px;
+	}
+	.address {
+    	font-size: 15px;
+    	margin-left: 3px; 
+	}
+	.address-item {
+    	font-size: 14px;
+    	margin-left: 20px;
+	}
+	.main-footer {
+    	margin-top: 30px;
+	}
+	.contacts-item {
+		text-align: center;
+   }
+   .privacy {
+		margin-bottom: 10px;
+		display: flex;
+		flex-direction: column;
+	}
+	.animals {
+		display: none;
+	}
+}
+
+@media (max-width: 415px){
+	.top-line {
+		min-height: 55px;
+  }
+  .logo {
+		margin-top: 20px;
+		height: 35px;
+		width: 35px;
+	}
+	.rocket img {
+		height: 30px;
+	}
+	.boost img {
+		height: 20px;
+	}
+	.hamburger {
+		margin-top: 7px;
+	}
+	.content-header h1 {
+		margin-top: 150px;
+		font-size: 53px;
+	}
+	.content-header h3 {
+		font-size: 25px;
+		margin-top: 25px;
+  }
+  .content-header img {
+		margin-top: 75px;
+	}
+	.about h2 {
+		margin-top: 50px;
+	}
+	.address {
+		font-size: 15px;
+	}
+	.address-item {
+    	font-size: 14px;
+    	margin-left: 0px;
+	}
+	.getCall {
+    	padding-left: 0px;
+	}
+	.footer-list {
+		margin-top: 50px;
+	}
+	.footer-wrapper nav ul {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+  }
+	.animals {
+		display: none;
+	}
+}
+
+@media (max-width: 320px){
+	.main-header {
+		min-height: 100px;
+		background-repeat: no-repeat;
+	}
+
+	.main-menu {
+		display: none;
+	}
+
+	.hamburger {
+		display: block;
+	}
+
+	.header-content {
+		margin-top: 100px;
+	}
+	.header-content h1 {
+		font-size: 35px;
+		line-height: 1.3;
+		text-align: center;
+	}
+
+	.header-content p {
+		font-size: 16px;
+		margin-bottom: 80px;
+		text-align: center;
+	}
+	.hamburger {
+	    margin-top: 25px;
+	    float: right;
+	}
+	.about h2 {
+		margin-top: 50px;
+	}
+	.address {
+		font-size: 15px;
+	}
+	.address-item {
+    	font-size: 14px;
+    	margin-left: 0px;
+	}
+	.getCall {
+    	padding-left: 0px;
+	}
+	.footer-list {
+		margin-top: 50px;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.animals {
+		display: none;
+	}
+}
