@@ -113,6 +113,11 @@ $(document).ready(function () {
 
 	var mixer = mixitup('.latest-works-mixer');
 
+	$('.about_more').click(function () {
+		$(this).parent().parent().siblings('.aboutUs_hidden').toggleClass('active');
+		$(this).find('span').toggleClass('active');
+	});
+
 });
 
 

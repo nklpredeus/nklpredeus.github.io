@@ -151,6 +151,38 @@ h2.line-after:after {
 	color: #555555;
 	text-align: center;
 }
+.aboutUs_hidden {
+	transform: scale(0);
+	opacity: 0;
+	margin-top: -200px;
+	overflow: hidden;
+	transition: .3s;
+}
+.text-hidden, .more {
+	display: none;
+}
+.text-hidden.active, .more.active {
+	display: inline;
+}
+.aboutUs_hidden.active {
+	opacity: 1;
+	transform: scale(1);
+	margin-top: 0px;
+}
+.about_more {
+	display: block;
+	width: 250px;
+	height: 50px;
+	font-weight: 700;
+	background: transparent;
+	border: 2px solid #222;
+	margin: 20px auto;
+	transition: .3s;
+}
+.about_more:hover {
+	background: #222;
+	color: #fff;
+}
 .about {
 	text-align: center;
 	margin-top: 60px;

@@ -368,7 +368,7 @@ margin-top: 10px;
  }
  .glitch::before,
  .glitch::after {
-	content: attr(data-text);
+	content: 'attr(data-text)';
 	position: absolute;
 	top: 0;
 	left: 0;
